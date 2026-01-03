@@ -9,7 +9,7 @@ import {
   Package,
   Trash2,
   X,
-} from "lucide-react"; // Note: standard icons
+} from "lucide-react";
 
 const PAGE_SIZE = 6;
 
