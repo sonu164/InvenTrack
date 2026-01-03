@@ -101,7 +101,7 @@ export default function App() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-950 via-slate-900 to-indigo-950 font-sans pb-12">
+    <div className="min-h-screen  from-slate-950 via-slate-900 to-indigo-950 font-sans pb-12">
       {/* Header Section */}
       <header className=" border-b sticky top-0 z-10 shadow-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex flex-col sm:flex-row justify-between items-center gap-4">
@@ -109,7 +109,7 @@ export default function App() {
             <div className="bg-indigo-600 p-2 rounded-lg">
               <Package className="text-white w-6 h-6" />
             </div>
-            <h1 className="text-xl font-extrabold tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-600">
+            <h1 className="text-xl font-extrabold tracking-tight bg-clip-text text-transparent  from-indigo-600 to-purple-600">
               InvenTrack
             </h1>
           </div>
@@ -460,7 +460,7 @@ function ProductForm({ initial, onCancel, onSave }) {
                 Description
               </label>
               <textarea
-                className="w-full border border-slate-200 rounded-xl p-3 outline-none focus:ring-2 focus:ring-indigo-100 focus:border-indigo-500 min-h-[100px]"
+                className="w-full border border-slate-200 rounded-xl p-3 outline-none focus:ring-2 focus:ring-indigo-100 focus:border-indigo-500 "
                 value={form.description}
                 onChange={(e) =>
                   setForm({ ...form, description: e.target.value })
