@@ -1,6 +1,7 @@
 import React from "react";
 import LoginSignup from "./component/loginPage";
 import Assignment from "./component/Assignment";
+import UserDashboard from "./component/UserDashboard";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 const App = () => {
@@ -10,6 +11,7 @@ const App = () => {
         <Routes>
           <Route path="/assignment" element={<Assignment />} />
           <Route path="/" element={<LoginSignup />} />
+          <Route path="/Users" element={<UserDashboard />} />
         </Routes>
       </Router>
     </div>
